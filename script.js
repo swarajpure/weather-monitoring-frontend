@@ -25,7 +25,3 @@ window.setInterval(() => {
     displayWeatherData(res)
   })
 }, 4000); 
-
-// if (pressure) {
-//   displayPressure.innerHTML = `${pressure} mBar`;
-// }
