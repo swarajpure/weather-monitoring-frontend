@@ -14,7 +14,7 @@ const displayWeatherData = (weatherData) => {
   const temperature = weatherData.temperature;
   if (pressure) {
     displayPressure.innerHTML = `${pressure} mBar`;
-  }
+  } 
   if (temperature) {
     displayTemperature.innerHTML = `${temperature}° Celcius`;
   }

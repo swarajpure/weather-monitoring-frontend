@@ -4,17 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Monitoring</title>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Weather Monitoring System</title>
 </head>
 <body>
-
-  <h1>Pressure: 
-    <span id="display-pressure"></span>
-  </h1>
-  <h1>Temperature
-    <span id="display-temperature"></span>
-  </h1>
-
+  <div class="main-container">
+    <div id="title">
+      Find out the current pressure & temperature!
+    </div>
+    <div class="content">
+      <div id="pressure">
+        <h1>Pressure
+          <div id="display-pressure">Loading...</div>
+        </h1>
+      </div>
+      <div id="temperature">
+        <h1>🌡️ Temperature
+          <div id="display-temperature">Loading...</div>
+        </h1>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
